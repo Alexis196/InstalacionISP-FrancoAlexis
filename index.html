@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="principal">
+        <h1 class="title">Servicio Internet</h1>
+        <p class="text">Desea conocer nuestros precios en instalaciones?</p>
+        <input type="button" value="Si" id="si" class="btn">
+        <input type="button" value="No" id="no" class="btn">
+        <div class="contenedor">
+            <p class="text_cont">Te dejamos un formulario de contacto</p>
+            <form action="">
+                <div class="entradas">
+                    <label class="label" for="">Nombre:</label>
+                    <input class="ingreso" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required> 
+                </div>
+                <div class="entradas">
+                    <label class="label" for="">Apellido:</label>
+                    <input class="ingreso" type="text" name="apeliido" id="apellido" placeholder="Ingrese su apellido" required> 
+                </div>
+                <div class="entradas">
+                    <label class="label" for="">Telefono:</label>
+                    <input class="ingreso" type="number" name="tel" id="tel" placeholder="Ingrese su telefono" required> 
+                </div>
+                <div class="entradas">
+                    <label class="label" for="">Dirección:</label>
+                    <input class="ingreso" type="text" name="dir" id="dir" placeholder="Ingrese su dirección" required> 
+                </div>
+                <input type="submit" name="enviar" id="enviar" value="Enviar" class="btn_env" onclick="data()">
+            </form>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
